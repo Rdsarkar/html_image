@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header start*/
+header{
+    background-color:#121B2A; 
+}
+.wrapper
+{
+   width: 80%;
+/*    height: 600px; */
+    margin:0 auto;
+    overflow: hidden;
+    
+}
+
+.logo
+{
+  width: 20%;
+    float: left;
+}
+.nav 
+{
+    width: 60%;
+    float: right;
+}
+
+.nav ul{ 
+    float: right;
+        }
+.nav ul li{ float: left;
+             list-style:none;
+            }
+.nav ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    margin-top: 50px;
+    color:white;
+    transition: .5s;
+    
+}
+.nav ul li:last-child a{
+    padding-right: 0;
+    
+}
+.nav ul li a:hover{
+    color:#0078BD;
+    
+} 
+/*header end*/
+/*banner start*/
+
+
+.banner{
+   background-image: url(../image/image.jpg);
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;   
+    
+}
+.banner_content{
+    width: 50%;
+    margin-top: 10%;
+    color:white;
+}
+.banner_content h2{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.banner_content h1{
+    font-size: 60px;
+    color: #0078BD;
+    text-transform: capitalize;
+}
+.banner_content p{
+    font-size: 21px;
+}
+.banner_content button{
+    padding: 5px 20px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/*banner end*/
+/*service_start*/
+.service{
+  overflow: hidden; 
+  background-color:#121B2C;
+}
+.wrapper_two{
+    width: 85%;
+    margin: 0 auto;
+    
+}
+.services{
+    overflow: hidden;
+    padding: 50px 0;
+}
+.single{
+    float: left;
+    width:30%;
+    border-right: 1px solid white;
+    padding: 10px 18px;
+    
+}
+.single:last-child{
+    border: none;
+}
+.single_header{
+    overflow: hidden;
+    
+}
+.single_logo{
+    width: 30%;
+    float: left;
+}
+.single_logo img{
+ 
+    width: 100%;    
+    
+
+}
+
+
+.single_text{
+    width: 60%;
+    float: left;
+    padding: 10px 0;
+}
+.pera_one{
+   font-size: 30px;
+    color: white;
+}
+.pera_two{
+   font-size: 36px;
+    color:#0078BD; 
+}
+.single_content{
+    font-size: 18px;
+    color: white;
+}
+.single_content p{
+    float: left;
+}
+
+/*service_end*/
